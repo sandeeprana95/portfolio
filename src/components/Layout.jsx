@@ -269,8 +269,8 @@ const Layout=({children})=>{
 
 const downloadCv=()=>{
   const a = document.createElement("a");
-  a.href = "/My resume.pdf"; 
-  a.download = "Sandeep_Kaliraman_CV.pdf";
+  a.href = "/ziyauddin.pdf"; 
+  a.download = "CV.pdf";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
