@@ -2,10 +2,12 @@ const Services=()=>{
     return(
         <div className=' xl:grid grid-cols-12 flex flex-col space-y-5 gap-5 h-full w-full'>
         <div className='col-span-8 order-2 xl:order-1 shadow-lg bg-white bg-white p-6.5 rounded-2xl'>
+          
           <div className='flex justify-between'>
             <h1 className='text-2xl text-[#212529] font-semibold'>Services I Offered</h1>
             <a className='text-blue-500 border-b border-gray-300 inline-block '>See All Services <i className='ri ri-arrow-right-line' /></a>
           </div>
+
            <div className='grid xl:grid-cols-4 max-sm:grid-cols-1 grid-cols-2 justify-between gap-6 mt-8.5'>
   
           
@@ -18,6 +20,7 @@ const Services=()=>{
             <label className='py-3 text-center leading-[20px]'>Frontend Development</label>
   
           </div>
+
           <div className='bg-[#F0F5F5] w-full p-4.5 rounded-xl flex flex-col items-center'>
             <div className='bg-white w-full py-7 flex items-center justify-center rounded-lg'>
               <img src='/Images/icons/product-design.png'
@@ -27,6 +30,7 @@ const Services=()=>{
             <label className='py-3 text-center leading-[20px]'>Backend Development</label>
   
           </div>
+
           <div className='bg-[#F0F5F5] w-full p-4.5 rounded-xl flex flex-col items-center'>
             <div className='bg-white w-full py-7 flex items-center justify-center rounded-lg'>
               <img src='/Images/icons/ui-ux.png'
@@ -36,6 +40,7 @@ const Services=()=>{
             <label className='py-3'>UI UX Design</label>
   
           </div>
+
           <div className='bg-[#F0F5F5] w-full p-4.5 rounded-xl flex flex-col items-center'>
             <div className='bg-white w-full px- py-7 flex items-center justify-center rounded-lg'>
               <img src='/Images/icons/branding.png'
@@ -44,6 +49,7 @@ const Services=()=>{
             </div>
             <label className='py-3 text-center leading-[20px]'>Full stack Web Apps</label>
           </div>
+
           </div>
   
         </div>
