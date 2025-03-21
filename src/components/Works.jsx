@@ -2,14 +2,12 @@ import Layout from "./Layout";
 
 const Works = () => {
     const works = [
-        { id: 1, title: "Amara Raja", image: '/Images/project-4.jpg', link: 'https://www.amararaja.com/' },
-        { id: 2, title: "Dr. Purnima", image: "/Images/project-4.jpg", link: 'https://www.advanceskinhairclinic.com/' },
-        { id: 3, title: "ProFlowers", image: "/Images/project-4.jpg", link: 'https://www.proflowers.com/' },
-        { id: 4, title: "MagicPin", image: "/Images/project-4.jpg", link: 'https://www.magicpin.in/' },
-        { id: 5, title: "KrishnaAayurveda", image: "/Images/project-4.jpg", link: 'https://krishnaayurved.com/' },
-        { id: 6, title: "FruitBae", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
-        { id: 7, title: "FeedoCenter", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
-        { id: 8, title: "EarnX", image: "/Images/project-4.jpg", link: 'https://earnxj.vercel.app/' },
+        { id: 1, title: "VeenaWorld", image: "/Images/project-4.jpg", link: 'https://www.veenaworld.com/' },
+        { id: 2, title: "Event Management", image: "/Images/project-4.jpg", link: 'https://eventsmanagementkerala.com/' },
+        { id: 3, title: "Religare", image: "/Images/project-4.jpg", link: 'https://krishnaayurved.com/' },
+        { id: 4, title: "BoxedGreens", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
+        { id: 5, title: "Nurturing", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
+        { id: 6, title: "Pawsindia", image: "/Images/project-4.jpg", link: 'https://earnxj.vercel.app/' },
     ];
 
     return (

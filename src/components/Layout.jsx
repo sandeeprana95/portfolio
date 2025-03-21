@@ -269,8 +269,8 @@ const Layout=({children})=>{
 
 const downloadCv=()=>{
   const a = document.createElement("a");
-  a.href = "/ziyauddin.pdf"; 
-  a.download = "CV.pdf";
+  a.href = "/sandeep_CV.pdf"; 
+  a.download = "sandeepResume.pdf";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -313,7 +313,10 @@ const copyEmail = () => {
             menu.map((item,index)=>(
               <Link key={index}
               to={item.href} 
-              className={`${location.pathname === item.href ? 'bg-linear-to-r/decreasing from-red-500 to-red-400 text-white shadow-2xl' : 'bg-[#F0F2F5]'} hover:bg-[#F0F2F5] flex flex-col items-center justify-center gap-2 w-25 h-25 text-md rounded-lg font-medium text-gray-700`}
+              className={`${ location.pathname === item.href ? 
+                'bg-linear-to-r/decreasing from-red-500 to-red-400 text-white shadow-2xl' : 
+                'bg-[#F0F2F5]'} hover:bg-[#F0F2F5] flex flex-col items-center justify-center gap-2 w-25 h-25 text-md rounded-lg font-medium text-gray-700
+                `}
               >
               <i className={item.icon} />  {item.name}
               </Link>
@@ -332,8 +335,8 @@ const copyEmail = () => {
     {/* section left 1 */}
     <div className='col-span-4  bg-white xl:sticky  top-23 left-0 h-fit flex flex-col justify-between pt-5 rounded-2xl xl:rounded-t-none xl:rounded-b-2xl shadow-2xl'>
     <div className=' w-11/12 xl:w-9/12 mx-auto mx-6 bg-[#F0F2F5] rounded-2xl pt-1.5  relative top-0 xl:-top-22'>
-       <img src='/Images/photo1.png'
-       className='mx-auto sm:h-95 xl:h-63 object-cover '
+       <img src='/sandeepjob.png'
+       className='mx-auto sm:h-95 xl:h-63 object-cover  w-40 '
        />
      </div>
      <div className='py-4 px-6 max-sm:px-4 space-y-3 mt-0 xl:-mt-20 '>
