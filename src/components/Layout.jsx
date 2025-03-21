@@ -278,12 +278,12 @@ const downloadCv=()=>{
 }
 
 const [copied, setCopied] = useState(false);
-const email = "sandeeprana385@gmail.com"; // Apni email yaha likho
+const email = "sandeeptechsunset385@gmail.com"; 
 
 const copyEmail = () => {
   navigator.clipboard.writeText(email).then(() => {
     setCopied(true);
-    setTimeout(() => setCopied(false), 2000); // 2s baad hide
+    setTimeout(() => setCopied(false), 2000); 
   });
 };
 
@@ -336,7 +336,7 @@ const copyEmail = () => {
     <div className='col-span-4  bg-white xl:sticky  top-23 left-0 h-fit flex flex-col justify-between pt-5 rounded-2xl xl:rounded-t-none xl:rounded-b-2xl shadow-2xl'>
     <div className=' w-11/12 xl:w-9/12 mx-auto mx-6 bg-[#F0F2F5] rounded-2xl pt-1.5  relative top-0 xl:-top-22'>
        <img src='/sandeepjob.png'
-       className='mx-auto sm:h-95 xl:h-63 object-cover  w-40 '
+       className='mx-auto sm:h-95 max-sm:h-80 sm:w-80 xl:h-63 object-cover xl:w-40 object-top  '
        />
      </div>
      <div className='py-4 px-6 max-sm:px-4 space-y-3 mt-0 xl:-mt-20 '>
@@ -344,18 +344,18 @@ const copyEmail = () => {
       <h1 className='text-3xl text-[#212529] font-semibold'>Sandeep Kaliraman</h1>
       {/* <label className="text-2xl">👋</label> */}
       </div>
-      <p className='text-[#798092] text-medium font-semibold text-center'>A Passionate <span className='text-[#212529] font-bold'>Full Stack Developer </span> having <span  className="text-[#212529] font-bold">3+ years</span> of Experience.</p>
+      <p className='text-[#798092] text-medium font-semibold text-center'>A Passionate <span className='text-[#212529] font-bold'>Full Stack Developer </span> having <span  className="text-[#212529] font-bold">4+ years</span> of Experience.</p>
      </div>
       <div className='px-6 max-sm:px-4 mt-2.5 flex flex-col gap-4  justify-around '>
-        <Link to="https://wa.me/8398906669"
-         className='text-lg bg-[#25D366] border border-gray-500  hover:bg-green-600 text-white gap-2 py-3 shadow-2xl px-2 rounded-lg font-semibold  flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
+        <Link to="https://wa.me/7011771790"
+         className='text-lg bg-[#25D366] border tracking-wider border-gray-500  hover:bg-green-600 text-white gap-2 py-3 shadow-2xl px-2 rounded-lg font-semibold  flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
           <img src="/Images/whatsapp1.png"
           className="h-[30px]"
           />
-           8398906669 </Link>
+           7011771790 </Link>
         <button onClick={copyEmail}
         className='text-lg text-gray-700  hover:text-black hover:border-black gap-2 shadow-2xl bg-transparet shadow border border-gray-300 py-3 px-2 rounded-lg font-semibold flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
-          <i className="ri-file-copy-line font-light text-xl" />sandeeprana385@gmail.com</button>
+          <i className="ri-file-copy-line font-light text-xl" />sandeeptechsunsest@gmail.com</button>
           {/* Success Message */}
       { copied && (
         <div 

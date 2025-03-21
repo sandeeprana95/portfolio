@@ -2,12 +2,12 @@ import Layout from "./Layout";
 
 const Works = () => {
     const works = [
-        { id: 1, title: "VeenaWorld", image: "/Images/project-4.jpg", link: 'https://www.veenaworld.com/' },
-        { id: 2, title: "Event Management", image: "/Images/project-4.jpg", link: 'https://eventsmanagementkerala.com/' },
-        { id: 3, title: "Religare", image: "/Images/project-4.jpg", link: 'https://krishnaayurved.com/' },
-        { id: 4, title: "BoxedGreens", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
-        { id: 5, title: "Nurturing", image: "/Images/project-4.jpg", link: 'https://www.fruitbae.com/' },
-        { id: 6, title: "Pawsindia", image: "/Images/project-4.jpg", link: 'https://earnxj.vercel.app/' },
+        { id: 1, title: "PawsIndia", image: "/Images/projects/project-1.jpeg", link: 'https://pawsindia.com/' },
+        { id: 2, title: "Plant Selling", image: "/Images/projects/project-2.jpeg", link: 'https://nurturinggreen.in/' },
+        { id: 3, title: "Boxed Greens Delivers", image: "/Images/projects/project-3.jpeg", link: 'https://boxedgreens.com/' },
+        { id: 4, title: "Religare Trading", image: "/Images/projects/project-4.jpeg", link: 'https://www.religareonline.com' },
+        { id: 5, title: "Event Management", image: "/Images/projects/project-5.jpeg", link: 'https://eventsmanagementkerala.com/' },
+        { id: 6, title: "Travelling", image: "/Images/projects/project-6.jpeg", link: 'https://www.veenaworld.com/' },
     ];
 
     return (
