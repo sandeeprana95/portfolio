@@ -346,7 +346,7 @@ const copyEmail = () => {
       </div>
       <p className='text-[#798092] text-medium font-semibold text-center'>A Passionate <span className='text-[#212529] font-bold'>Full Stack Developer </span> having <span  className="text-[#212529] font-bold">4+ years</span> of Experience.</p>
      </div>
-      <div className='px-6 max-sm:px-4 mt-2.5 flex flex-col gap-4  justify-around '>
+      <div className='px-6 max-sm:px-2.5 mt-2.5 flex flex-col gap-4  justify-around '>
         <Link to="https://wa.me/7011771790"
          className='text-lg bg-[#25D366] border tracking-wider border-gray-500  hover:bg-green-600 text-white gap-2 py-3 shadow-2xl px-2 rounded-lg font-semibold  flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
           <img src="/Images/whatsapp1.png"
@@ -354,8 +354,8 @@ const copyEmail = () => {
           />
            7011771790 </Link>
         <button onClick={copyEmail}
-        className='text-lg text-gray-700  hover:text-black hover:border-black gap-2 shadow-2xl bg-transparet shadow border border-gray-300 py-3 px-2 rounded-lg font-semibold flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
-          <i className="ri-file-copy-line font-light text-xl" />sandeeptechsunsest@gmail.com</button>
+        className='text-lg text-gray-700  hover:text-black hover:border-black max-sm:gap-1 gap-2 shadow-2xl bg-transparet shadow border border-gray-300 py-3 px-2 rounded-lg font-semibold flex items-center justify-center w-full lg:w-[80%]  xl:w-full 2xl:w-full mx-auto'>
+          <i className="ri-file-copy-line  font-light text-xl" />sandeeptechsunsest@gmail.com</button>
           {/* Success Message */}
       { copied && (
         <div 
