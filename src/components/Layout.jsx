@@ -269,7 +269,7 @@ const Layout=({children})=>{
 
 const downloadCv=()=>{
   const a = document.createElement("a");
-  a.href = "/sandeep_CV(1).pdf"; 
+  a.href = "/sandeep_CV (1).pdf"; 
   a.download = "sandeepResume.pdf";
   document.body.appendChild(a);
   a.click();
