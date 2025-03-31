@@ -269,7 +269,7 @@ const Layout=({children})=>{
 
 const downloadCv=()=>{
   const a = document.createElement("a");
-  a.href = "/sandeep_CV.pdf"; 
+  a.href = "/sandeep_CV(1).pdf"; 
   a.download = "sandeepResume.pdf";
   document.body.appendChild(a);
   a.click();
@@ -347,7 +347,7 @@ const copyEmail = () => {
       <p className='text-[#798092] text-medium font-semibold text-center'>A Passionate <span className='text-[#212529] font-bold'>Full Stack Developer </span> having <span  className="text-[#212529] font-bold">4+ years</span> of Experience.</p>
      </div>
       <div className='px-6 max-sm:px-2.5 mt-2.5 flex flex-col gap-4  justify-around '>
-        <Link to="https://wa.me/8398906669"
+        <Link to="https://wa.me/+918398906669"
          className='text-lg bg-[#25D366] border tracking-wider border-gray-500  hover:bg-green-600 text-white gap-2 py-3 shadow-2xl px-2 rounded-lg font-semibold  flex items-center justify-center w-full lg:w-[80%] xl:w-full 2xl:w-full mx-auto'>
           <img src="/Images/whatsapp1.png"
           className="h-[30px]"
